@@ -1,0 +1,89 @@
+*{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+header{
+    
+    width: 100%;
+    
+
+}
+#banner {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/design1_image1.jpg);
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+
+}
+
+
+#titulo{
+    position: absolute;
+    font-size: 140%;
+    font-style: italic;
+    font: bold;
+    top: 5%;
+    left: 5%;
+
+}
+#sub_titulo{
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    color: aquamarine;
+    text-align: center;
+    padding: 5px 0px;
+    margin: 0;
+    bottom: 0;
+}
+
+#logo{
+    position: absolute;
+    bottom: -50px;
+    right: 5%;
+
+}
+.cuerpo{
+    position: relative;
+    width: 100%;
+}
+.cuerpo div{
+    height: 33%;
+
+}
+nav{
+    position: absolute;
+    width: 20%;
+    height: 300px;
+    transform: translateX(20%);
+    padding: 10px;
+    
+}
+section{
+    position: relative;
+    transform: translateX(30%);
+    width: 65%;
+    
+
+}
+.hockey{
+    position:absolute;
+    transform: translateX(30%);
+    width: 65%;
+    z-index: -10;
+    
+    
+    
+}
+#imagen{
+    filter:opacity(50%)
+}
+/*#hockey{
+    
+    position: absolute;
+    margin-left: 5%;
+    margin-bottom: 0px;
+    
+
+}
